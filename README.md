@@ -86,7 +86,7 @@ Let's first create `components` folder and start from creating our first compone
 ```jsx
 <!-- App.js -->
 import React from 'react';
-import jsondata from '../data.json'
+import jsondata from '/src/data.json'
 import './App.css';
 
 import FilterableProductTable from './components/FilterableProductTable';
