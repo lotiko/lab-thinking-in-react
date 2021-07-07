@@ -7,9 +7,10 @@ class SearchBar extends React.Component {
     }
     render() {
         return (
-            <nav>
-                <input type="text" name="search" placeholder="Search.." onChange={(e) => this.props.handelSearch(e.target.value)}></input>
-        </nav>);
+            <div>
+                <h3>Search</h3>
+                <input type="text" name="search" onChange={(e) => this.props.handelSearch(e.target.value)}></input>
+        </div>);
     }
 }
 export default SearchBar;   
