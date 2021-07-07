@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+input[type="text"] {
+  margin: 0 auto 1em auto;
+  max-width: 75%;
+}
+h3 {
+  margin-bottom: 0;
+}
+input[type="checkbox"] {
+  margin-right: 1em;
+}
+table{
+  width: 90%;
+  margin:0 auto 0 auto;
+  font-size: 1.3em;
+}
+thead tr {
+  background-color: #d3d7dd;
+}

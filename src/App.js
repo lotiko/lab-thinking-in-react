@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 import FilterableProductTable from './components/FilterableProductTable';
-import json from "./data.json"
+import json from "./data.json";
+import 'bulma/css/bulma.min.css';
 function App() {
   return (
     <div className="App">
-      <h1>IronStore</h1>
       <FilterableProductTable products={json.data}/>
     </div>
   );

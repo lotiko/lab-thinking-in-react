@@ -7,9 +7,9 @@ class SearchBar extends React.Component {
     }
     render() {
         return (
-            <div>
-                <h3>Search</h3>
-                <input type="text" name="search" onChange={(e) => this.props.handelSearch(e.target.value)}></input>
+            <div >
+                <h3 className="title is-3">Search</h3>
+                <input className="input is-large" type="text" name="search" onChange={(e) => this.props.handelSearch(e.target.value)}></input>
         </div>);
     }
 }
